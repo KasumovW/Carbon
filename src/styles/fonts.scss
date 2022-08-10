@@ -1,0 +1,16 @@
+@mixin font-face($font-family, $file-path, $weight: normal, $style: normal) {
+    @font-face {
+        font-family: $font-family;
+        src: url('#{$file-path}.ttf');
+        font-weight: $weight;
+        font-style: $style;
+        font-display: swap;
+    }
+}
+
+//Mulish
+@include font-face("Mulish", "../assets/fonts/Mulish/Mulish-Regular", 400, regular);
+@include font-face("Mulish", "../assets/fonts/Mulish/Mulish-Medium", 500, medium);
+@include font-face("Mulish", "../assets/fonts/Mulish/Mulish-SemiBold", 600, semibold);
+@include font-face("Mulish", "../assets/fonts/Mulish/Mulish-Bold", 700, bold);
+@include font-face("Mulish", "../assets/fonts/Mulish/Mulish-ExtraBold", 800, extrabold);
