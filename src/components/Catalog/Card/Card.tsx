@@ -1,9 +1,10 @@
 import React from 'react';
 import s from './Card.module.scss';
 
-import samurai from '../../assets/images/jpg/samurai.jpg';
-import like from '../../assets/images/svg/like.svg';
-import market from '../../assets/images/svg/market.svg';
+import samurai from '../../../assets/images/jpg/samurai.jpg';
+import like from '../../../assets/images/svg/like.svg';
+import market from '../../../assets/images/svg/market.svg';
+import { Link } from 'react-router-dom';
 
 type Props = {};
 
@@ -19,9 +20,9 @@ const Card: React.FC = (props: Props) => {
 				<img src={like} alt='Картинка не прогрузилась' />
 				<img src={market} alt='Картинка не прогрузилась' />
 			</div>
-			<a href='#'>
+			<Link to='/card/:id'>
 				глянцевый Чехол из классического карбона на iPhone 13 Pro Max
-			</a>
+			</Link>
 			<div className={s.color}>
 				<div />
 				<div />

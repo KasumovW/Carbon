@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Card from '../../components/Card/Card';
+import Card from '../../components/Catalog/Card/Card';
 import s from './Catalog.module.scss';
 
 type Props = {};
