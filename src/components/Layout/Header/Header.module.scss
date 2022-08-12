@@ -1,0 +1,34 @@
+.container {
+  margin-top: 50px;
+  height: 60px;
+  background: #1e1d1d;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  .imageContainer {
+    width: 10%;
+  }
+  .navContainer {
+    width: 55%;
+    flex: 1;
+    margin: 0 2.5%;
+  }
+  .ulContainer {
+    font-family: "Muller";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 18px;
+
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .iconsContainer {
+    padding: 3%;
+  }
+}

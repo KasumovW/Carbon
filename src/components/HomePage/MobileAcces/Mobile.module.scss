@@ -1,0 +1,44 @@
+.main {
+  background: #1e1d1d;
+  // height: 800px;
+  .textMobile {
+    text-align: center;
+    width: 60%;
+    margin: 10px auto;
+    padding: 40px 0;
+    color: white;
+    background: #1e1d1d;
+
+    span {
+      border-bottom: 4px solid #ff7a00;
+
+      font-family: "Muller";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 56px;
+    }
+  }
+  .block {
+    height: 476px;
+    background: #727272;
+    width: 80%;
+    margin: 50px auto;
+  }
+  .transition {
+    text-align: center;
+    font-family: "Muller";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 167.9%;
+    /* identical to box height, or 54px */
+
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+
+    color: #ffffff;
+    span {
+      margin-bottom: 50px;
+    }
+  }
+}
