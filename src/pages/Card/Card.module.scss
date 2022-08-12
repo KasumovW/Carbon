@@ -1,0 +1,34 @@
+.wrapper {
+	max-width: 1700px;
+	margin: auto;
+
+	.back {
+		font-weight: 300;
+		font-size: 16px;
+		line-height: 19px;
+		text-transform: uppercase;
+		color: #727272;
+		margin: 83px 0;
+		cursor: pointer;
+	}
+
+	.back + h2 {
+		width: 1075px;
+		font-weight: 700;
+		font-size: 52px;
+		line-height: 66px;
+		text-transform: uppercase;
+		color: #2c2d2e;
+		border-bottom: 8px solid #ff7a00;
+		margin-bottom: 50px;
+	}
+
+	h2 + p {
+		font-weight: 300;
+		font-size: 16px;
+		line-height: 19px;
+		text-decoration-line: underline;
+		text-transform: uppercase;
+		color: #727272;
+	}
+}
