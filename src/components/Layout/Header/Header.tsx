@@ -1,13 +1,10 @@
 import React from "react";
 import styles from "./Header.module.scss";
-// import img from './1.png'
 
 const Header: React.FC = () => {
   return (
     <div className={styles.container}>
-      <div className={styles.imageContainer}>
-        {/* <img src={img} alt="" /> */}
-      </div>
+      <div className={styles.imageContainer}></div>
       <nav className={styles.navContainer}>
         <ul className={styles.ulContainer}>
           <li>КАТАЛОГ</li>
