@@ -36,7 +36,6 @@
 		font-weight: 500;
 		font-size: 24px;
 		line-height: 24px;
-		color: #ffff;
 		text-transform: uppercase;
 		cursor: pointer;
 		margin-bottom: 24px;
@@ -74,6 +73,13 @@
 		font-size: 24px;
 		line-height: 24px;
 		text-transform: uppercase;
-		color: #ffffff;
+	}
+
+	.white {
+		color: white;
+	}
+
+	.black {
+		color: black;
 	}
 }

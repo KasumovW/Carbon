@@ -6,9 +6,11 @@ import like from '../../../assets/images/svg/like.svg';
 import market from '../../../assets/images/svg/market.svg';
 import { Link } from 'react-router-dom';
 
-type Props = {};
+type Props = {
+	color?: 'white' | 'black';
+};
 
-const Card: React.FC = (props: Props) => {
+const Card: React.FC<Props> = ({ color }) => {
 	return (
 		<div className={s.wrapper}>
 			<div className={s.images}>
@@ -20,7 +22,7 @@ const Card: React.FC = (props: Props) => {
 				<img src={like} alt='Картинка не прогрузилась' />
 				<img src={market} alt='Картинка не прогрузилась' />
 			</div>
-			<Link to='/card/:id'>
+			<Link to='/card/:id' className={color === 'black' ? s.black : s.white}>
 				глянцевый Чехол из классического карбона на iPhone 13 Pro Max
 			</Link>
 			<div className={s.color}>
@@ -29,7 +31,7 @@ const Card: React.FC = (props: Props) => {
 				<div />
 				<div />
 			</div>
-			<p>5000 ₽</p>
+			<p className={color === 'black' ? s.black : s.white}>5000 ₽</p>
 		</div>
 	);
 };

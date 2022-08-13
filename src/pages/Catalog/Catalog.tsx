@@ -32,12 +32,12 @@ const Catalog: React.FC = (props: Props) => {
 					))}
 				</ul>
 				<div className={s.cards}>
-					<Card />
-					<Card />
-					<Card />
-					<Card />
-					<Card />
-					<Card />
+					<Card color='white' />
+					<Card color='white' />
+					<Card color='white' />
+					<Card color='white' />
+					<Card color='white' />
+					<Card color='white' />
 				</div>
 			</div>
 		</div>
