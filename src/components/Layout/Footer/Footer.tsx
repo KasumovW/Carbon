@@ -1,17 +1,25 @@
 import React from "react";
 import styles from "./Footer.module.scss";
+import im from "../../../assets/images/svg/Vector.svg";
+import { Link } from "react-router-dom";
+
 const Footer: React.FC = () => {
   return (
     <div className={styles.container}>
       <div className={styles.information}>
         <div className={styles.nameProject}>
+          <Link to={`/`}>
+            <img src={im} alt="" />
+          </Link>
           <span>PRIME CARBON</span>
         </div>
         <div className={styles.navText}>
           <div className={styles.block}>
             НАВИГАЦИЯ
             <p>ГЛАВНАЯ</p>
-            <p>КАТАЛОГ</p>
+            <p>
+              <Link to={`/catalog`}>КАТАЛОГ</Link>
+            </p>
             <p>О НАС</p>
             <p>УСЛОВИЯ</p>
             <p>КОНТАКТЫ</p>

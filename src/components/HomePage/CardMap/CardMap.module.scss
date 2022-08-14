@@ -1,0 +1,50 @@
+.wrapper {
+  background: #1e1d1d;
+  // height: 700px;
+
+  .wid {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    .cards {
+      padding: 50px 0;
+
+      .itemDesc {
+        margin-top: 20px;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 167.9%;
+        letter-spacing: -0.04em;
+        text-transform: uppercase;
+        color: rgba(255, 255, 255, 0.7);
+      }
+      .itemTitle {
+        text-align: start;
+        font-family: "Muller";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 167.9%;
+
+        letter-spacing: -0.02em;
+        text-transform: uppercase;
+
+        color: #ffffff;
+        width: 300px;
+        border-bottom: 3px solid #ff7a00;
+      }
+
+      .imgContainer {
+        flex: 1;
+        width: 330px;
+        height: 330px;
+        background: #727272;
+      }
+    }
+  }
+}

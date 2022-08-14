@@ -8,6 +8,7 @@
   color: white;
   .imageContainer {
     width: 10%;
+    padding-left: 40px;
   }
   .navContainer {
     width: 55%;
@@ -29,6 +30,12 @@
     width: 100%;
   }
   .iconsContainer {
+    display: flex;
+    margin-left: 20px;
     padding: 3%;
+
+    img {
+      margin-left: 20px;
+    }
   }
 }
