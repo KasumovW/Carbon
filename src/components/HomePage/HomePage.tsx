@@ -4,6 +4,7 @@ import styles from "./HomePage.module.scss";
 import MobileAcces from "./MobileAcces/MobileAcces";
 import arrow from "../../assets/images/svg/arrow.svg";
 import { Link } from "react-router-dom";
+import Location from "./Location/Location";
 
 export const HomePage: React.FC = () => {
   return (
@@ -31,6 +32,7 @@ export const HomePage: React.FC = () => {
       <MobileAcces />
       <CardMap />
       <div className={styles.review}>Оставить отзыв</div>
+      <Location />
     </>
   );
 };

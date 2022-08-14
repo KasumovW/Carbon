@@ -57,7 +57,7 @@ const CardMap: React.FC = (props: Props) => {
           {category.map((item) => (
             <div className={styles.cards} key={item.id}>
               <div className={styles.imgContainer}></div>
-              <div className={styles.itemTitle}>{item.title}</div>
+              <span className={styles.itemTitle}>{item.title}</span>
               <div className={styles.itemDesc}>{item.description}</div>
             </div>
           ))}

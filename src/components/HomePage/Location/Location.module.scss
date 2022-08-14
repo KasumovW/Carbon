@@ -1,0 +1,77 @@
+.mainLocation {
+  height: 1000px;
+
+      div {
+    padding: 90px 0 0 0;
+    width: 80%;
+    margin: auto;
+    text-align: start;
+  }
+
+        .text span {
+    padding-top: 50px;
+    font-family: "Muller";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #ffffff;
+    border-bottom: 3px solid #ff7a00;
+  }
+
+    .address {
+    width: 80%;
+    margin: auto;
+    display: flex;
+
+        .map {
+      width: 60%;
+      height: 100%;
+      min-height: 400px;
+      background-color: gray;
+      margin-right: 20px;
+    }
+
+        .location {
+      text-align: center;
+      width: 40%;
+      min-height: 400px;
+
+          .s {
+        margin-bottom: 25px;
+        margin-top: 20px;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 22px;
+        text-transform: uppercase;
+        color: rgba(255, 255, 255, 0.7);
+      }
+
+          p {
+        font-family: "Muller";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 122%;
+        letter-spacing: -0.01em;
+        text-transform: uppercase;
+        color: #ffffff;
+      }
+          .p {
+        margin-top: 40px;
+        font-family: "Muller";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 167.9%;
+        letter-spacing: -0.02em;
+        text-transform: uppercase;
+        color: #ffffff;
+        border-bottom: 3px solid #ff7a00;
+      }
+    }
+  }
+}
