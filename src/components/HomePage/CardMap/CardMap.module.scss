@@ -27,7 +27,7 @@
         font-family: "Muller";
         font-style: normal;
         font-weight: 700;
-        font-size: 21px;
+        font-size: 22px;
         line-height: 167.9%;
         letter-spacing: -0.02em;
         text-transform: uppercase;
@@ -38,10 +38,56 @@
 
       .imgContainer {
         flex: 1;
-        width: 330px;
-        height: 330px;
+        width: 310px;
+        height: 310px;
         background: #727272;
       }
     }
   }
+}
+
+@media only screen and (max-width: 1200px) {
+}
+@media only screen and (max-width: 992px) {
+}
+@media only screen and (max-width: 768px) {
+  .wrapper {
+    .wid {
+      width: 80%;
+      margin: auto;
+
+      .cards {
+        width: 100%;
+
+        .imgContainer {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .wrapper {
+    .wid {
+      .cards {
+        padding: 10px 0;
+
+        .itemTitle {
+          font-size: 15px;
+        }
+
+        .itemDesc {
+          font-size: 15px;
+        }
+        .imgContainer {
+          height: 250px;
+          width: 280px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 320px) {
 }

@@ -9,25 +9,28 @@ import Location from "./Location/Location";
 export const HomePage: React.FC = () => {
   return (
     <>
-      <div className={styles.container}>
-        <div className={styles.title}>PRIME CARBON</div>
-        <div>
-          <span></span>
-          <p>
-            бренд технологических аксессуаров, декора и предметов быта из 100%
-            карбона
-          </p>
-        </div>
-        <div>
-          <p>КАТАЛОГ</p>
-          <Link to={`/catalog`}>
-            {" "}
-            <img src={arrow} alt="" />
-          </Link>
+      <div className={styles.x}>
+        <div className={styles.container}>
+          <div className={styles.title}>PRIME CARBON</div>
+          <div className={styles.a}>
+            <span></span>
+            <p>
+              бренд технологических аксессуаров, декора и предметов быта из 100%
+              карбона
+            </p>
+          </div>
+          <div className={styles.a}>
+            <p>КАТАЛОГ</p>
+            <Link to={`/catalog`}>
+              {" "}
+              <img src={arrow} alt="" />
+            </Link>
+          </div>
         </div>
       </div>
+      {/* ПРЕИМУЩЕСТВА <span>ПРОГРАММЫ ЛОЯЛЬНОСТИ</span> ЗАРЕГИСТРИРОВАТЬСЯ */}
       <div className={styles.banner}>
-        ПРЕИМУЩЕСТВА <span>ПРОГРАММЫ ЛОЯЛЬНОСТИ</span> ЗАРЕГИСТРИРОВАТЬСЯ
+        <p>ПРЕИМУЩЕСТВА ПРОГРАММЫ ЛОЯЛЬНОСТИ</p>
       </div>
       <MobileAcces />
       <CardMap />

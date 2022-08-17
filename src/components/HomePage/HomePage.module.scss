@@ -1,3 +1,6 @@
+.x {
+  background: #1e1d1d;
+}
 .container {
   height: 1080px;
   background: #1e1d1d;
@@ -17,7 +20,7 @@
     color: #ffffff;
   }
 
-  div {
+  .a {
     display: flex;
     margin-top: 40px;
     width: 35%;
@@ -48,30 +51,32 @@
     color: #ffffff;
   }
   div + div + div img {
-padding: 15px;  }
+    padding: 15px;
+  }
 }
 
 .banner {
-  font-family: "Muller";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  color: white;
-  padding: 20px;
-  text-align: center;
-  height: 51px;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    #ff7a00;
-  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.7);
-
-  span {
-    text-decoration: underline;
-    margin-right: 30px;
+  p {
     font-family: "Muller";
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    height: 51px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      #ff7a00;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.7);
   }
+  // span {
+  //   text-decoration: underline;
+  //   margin-right: 30px;
+  //   font-family: "Muller";
+  //   font-style: normal;
+  //   font-weight: 700;
+  //   font-size: 18px;
+  // }
 }
 
 .review {
@@ -87,4 +92,76 @@ padding: 15px;  }
   text-transform: uppercase;
   background: #ff7a00;
   color: #ffffff;
+}
+
+@media only screen and (max-width: 1200px) {
+}
+@media only screen and (max-width: 992px) {
+}
+@media only screen and (max-width: 768px) {
+
+  .x {
+
+    .container{
+
+        .title {
+          width: 50%; 
+          font-size: 50px;
+
+        }
+
+          .a {
+
+              p{
+                font-size: 25px;
+              }
+
+              img {
+                height: 35px;
+                margin-top: 2px;
+                padding: 9px;
+              }
+
+          }
+
+    }
+
+  }
+
+}
+@media only screen and (max-width: 480px) {
+  .container {
+    .title {
+      font-size: 70px;
+    }
+    .a {
+        width:90%;
+      img {
+        // width: 20px;
+        height: 28px;
+        padding: 5px;
+      }
+
+      p {
+        font-size: 18px;
+      }
+
+      span {
+      }
+    }
+
+    div + div + div p {
+    }
+  }
+
+  .banner {
+    p {
+      text-align: center;
+      padding: 10px;
+      font-size: 15px;
+    }
+  }
+}
+
+@media only screen and (max-width: 320px) {
 }

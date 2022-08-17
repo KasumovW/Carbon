@@ -39,3 +39,71 @@
     }
   }
 }
+
+@media only screen and (max-width: 1200px) {
+}
+@media only screen and (max-width: 992px) {
+}
+@media only screen and (max-width: 768px) {
+}
+@media only screen and (max-width: 480px) {
+  .main {
+    .textMobile {
+      text-align: center;
+      width: 50%;
+      margin: auto;
+      padding: 40px 0;
+      color: white;
+      background: #1e1d1d;
+
+      span {
+        text-align: center;
+        border-bottom: 4px solid #ff7a00;
+        font-family: "Muller";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+      }
+    } 
+
+
+        .block {
+          height: 300px;
+            width:280px;
+        }
+
+    .transition {
+      text-align: center;
+      font-family: "Muller";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 167.9%;
+      letter-spacing: -0.03em;
+      text-transform: uppercase;
+      color: #ffffff;
+
+      span {
+        margin-bottom: 50px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+
+  .main {
+
+      .textMobile {
+        width: 80%;
+        margin: auto;
+
+          span {
+
+          }
+
+      }
+
+  }
+
+}

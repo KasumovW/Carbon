@@ -62,3 +62,77 @@
     }
   }
 }
+
+@media only screen and (max-width: 1200px) {
+}
+@media only screen and (max-width: 992px) {
+  .container {
+    .information {
+      .nameProject {
+        align-items: center;
+
+        span {
+          font-size: 25px;
+        }
+      }
+
+      .navText {
+        .block {
+          p {
+            word-break: break-all;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 768px) {
+  
+}
+@media only screen and (max-width: 480px) {
+  .container {
+    .information {
+      font-style: 10px;
+      .nameProject {
+        align-items: center;
+
+        span {
+          margin-left: 30px;
+          text-align: start;
+          font-size: 25px;
+        }
+      }
+
+      .navText {
+        width: 80%;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        font-size: 20px;
+
+        .block {
+          width: 33%;
+          font-size: 15px;
+          margin-left: 40px;
+
+          p {
+            word-break: break-all;
+            font-size: 15px;
+          }
+
+          .address {
+            font-style: 15px;
+            word-break: break-all;
+
+            p {
+              word-break: break-all;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 320px) {
+}
