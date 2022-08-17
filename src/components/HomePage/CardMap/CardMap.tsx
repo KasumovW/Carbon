@@ -19,6 +19,12 @@ const CardMap: React.FC = (props: Props) => {
       description: "Lorem ipsum dolor sit amet.",
     },
     {
+      title: "Мобильные аксессуары",
+      id: 1,
+      active: true,
+      description: "Lorem ipsum dolor sit amet.",
+    },
+    {
       title: "Тюнинг авто",
       id: 2,
       active: false,

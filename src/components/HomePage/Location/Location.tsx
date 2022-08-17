@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Location.module.scss";
+
 const Location: React.FC = () => {
   return (
     <div className={styles.mainLocation}>
