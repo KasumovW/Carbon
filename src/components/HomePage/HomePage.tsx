@@ -14,7 +14,7 @@ export const HomePage: React.FC = () => {
           <div className={styles.title}>PRIME CARBON</div>
           <div className={styles.a}>
             <span></span>
-            <p>
+            <p className={styles.app}>
               бренд технологических аксессуаров, декора и предметов быта из 100%
               карбона
             </p>
