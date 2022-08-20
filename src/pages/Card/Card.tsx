@@ -20,8 +20,8 @@ type Props = {};
 SwiperCore.use([Navigation]);
 
 const Card: React.FC = (props: Props) => {
-	const navigate = useNavigate();
-	const { id } = useParams();
+  const navigate = useNavigate();
+  const { id } = useParams();
 
 	return (
 		<div className={s.wrapper}>

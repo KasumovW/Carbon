@@ -1,10 +1,10 @@
-import React from 'react';
-import s from './Card.module.scss';
+import React from "react";
+import s from "./Card.module.scss";
 
-import samurai from '../../../assets/images/jpg/samurai.jpg';
-import like from '../../../assets/images/svg/like.svg';
-import market from '../../../assets/images/svg/market.svg';
-import { Link } from 'react-router-dom';
+import samurai from "../../../assets/images/jpg/samurai.jpg";
+import like from "../../../assets/images/svg/like.svg";
+import market from "../../../assets/images/svg/market.svg";
+import { Link } from "react-router-dom";
 
 type Props = {
 	color?: 'white' | 'black';

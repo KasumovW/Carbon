@@ -1,0 +1,138 @@
+.container {
+  background: #121212;
+  color: white;
+
+  .information {
+    width: 95%;
+    margin: auto;
+    border: 1px solid #121212;
+
+    .nameProject {
+      align-items: center;
+      display: flex;
+      img {
+        margin-left: 50px;
+      }
+      span {
+        margin-left: 100px;
+      }
+    }
+
+    .navText {
+      font-size: 25px;
+      padding: 30px;
+      display: flex;
+      justify-content: space-around;
+      color: white;
+      margin-bottom: 10px;
+
+      .block {
+        width: 30%;
+      }
+
+      .address {
+        margin-top: 50px;
+        color: white;
+      }
+
+      p {
+        margin-top: 20px;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 27px;
+
+        color: rgba(255, 255, 255, 0.6);
+      }
+    }
+  }
+  .nameProject {
+    margin-top: 100px;
+    font-family: "Muller";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 133%;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    color: #ffffff;
+    span {
+      text-align: start;
+    }
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+}
+@media only screen and (max-width: 992px) {
+  .container {
+    .information {
+      .nameProject {
+        align-items: center;
+
+        span {
+          font-size: 25px;
+        }
+      }
+
+      .navText {
+        .block {
+          p {
+            word-break: break-all;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 768px) {
+  
+}
+@media only screen and (max-width: 480px) {
+  .container {
+    .information {
+      font-style: 10px;
+      .nameProject {
+        align-items: center;
+
+        span {
+          margin-left: 30px;
+          text-align: start;
+          font-size: 25px;
+        }
+      }
+
+      .navText {
+        width: 80%;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        font-size: 20px;
+
+        .block {
+          width: 33%;
+          font-size: 15px;
+          margin-left: 40px;
+
+          p {
+            word-break: break-all;
+            font-size: 15px;
+          }
+
+          .address {
+            font-style: 15px;
+            word-break: break-all;
+
+            p {
+              word-break: break-all;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 320px) {
+}
