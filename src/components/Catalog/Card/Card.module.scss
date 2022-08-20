@@ -83,3 +83,42 @@
 		color: black;
 	}
 }
+
+@media screen and(max-width: 1140px) {
+	.wrapper {
+		max-width: 390px;
+		.images {
+			margin-bottom: 26px;
+		}
+
+		.images + a {
+			font-size: 18px;
+			line-height: 22px;
+			margin-bottom: 20px;
+		}
+
+		a + .color {
+			margin-bottom: 22px;
+
+			div {
+				width: 22px;
+				height: 22px;
+			}
+		}
+
+		.color + p {
+			font-weight: 500;
+			font-size: 24px;
+			line-height: 24px;
+			text-transform: uppercase;
+		}
+
+		.white {
+			color: white;
+		}
+
+		.black {
+			color: black;
+		}
+	}
+}

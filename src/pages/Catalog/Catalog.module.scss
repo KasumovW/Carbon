@@ -1,5 +1,6 @@
 .wrapper {
 	background: #1e1d1d;
+	padding: 0 20px;
 
 	.container {
 		max-width: 1700px;
@@ -46,6 +47,31 @@
 			display: flex;
 			justify-content: space-between;
 			flex-wrap: wrap;
+		}
+	}
+}
+
+@media screen and(max-width: 1140px) {
+	.wrapper {
+		.container {
+			ul {
+				justify-content: start;
+
+				li:first-child {
+					color: #ffffff;
+					font-weight: 500;
+				}
+
+				li {
+					font-size: 18px;
+					line-height: 26px;
+					margin-right: 15px;
+				}
+			}
+
+			.cards {
+				justify-content: space-around;
+			}
 		}
 	}
 }
