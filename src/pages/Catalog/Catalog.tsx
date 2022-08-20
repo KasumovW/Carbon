@@ -20,28 +20,28 @@ const Catalog: React.FC = (props: Props) => {
     { title: "ложки", id: 6, active: false },
   ]);
 
-  return (
-    <div className={s.wrapper}>
-      <div className={s.container}>
-        <h2>каталог товаров</h2>
-        <ul>
-          {catalog.map((element) => (
-            <li className={element.active ? s.active : ""} key={element.id}>
-              {element.title}
-            </li>
-          ))}
-        </ul>
-        <div className={s.cards}>
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-        </div>
-      </div>
-    </div>
-  );
+	return (
+		<div className={s.wrapper}>
+			<div className={s.container}>
+				<h2>каталог товаров</h2>
+				<ul>
+					{catalog.map((element) => (
+						<li className={element.active ? s.active : ''} key={element.id}>
+							{element.title}
+						</li>
+					))}
+				</ul>
+				<div className={s.cards}>
+					<Card color='white' />
+					<Card color='white' />
+					<Card color='white' />
+					<Card color='white' />
+					<Card color='white' />
+					<Card color='white' />
+				</div>
+			</div>
+		</div>
+	);
 };
 
 export default Catalog;
