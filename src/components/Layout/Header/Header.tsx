@@ -5,30 +5,31 @@ import { Link } from "react-router-dom";
 import img1 from "../../../assets/images/svg/auth.svg";
 import img2 from "../../../assets/images/svg/likes.svg";
 import img3 from "../../../assets/images/svg/ell.svg";
+import NavDropdown from "react-bootstrap/NavDropdown";
 
 const Header: React.FC = () => {
   return (
     <div className={styles.main}>
       <div className={styles.container}>
-        <div className={styles.imageContainer}>
+        <div className={styles.imgCont}>
           <Link to={`/`}>
             <img src={img} alt="" />
           </Link>
         </div>
-        <nav className={styles.navContainer}>
-          <ul className={styles.ulContainer}>
+        <div className={styles.navText}>
+          <ul>
             <li>
               <Link to={`/catalog`}>КАТАЛОГ</Link>
             </li>
             <li>КАРБОН</li>
-            <li>КАСТОМ</li>
-            <li>КОНТАКТЫ</li>
+            <li>КОСТЮМ</li>
+            <li>КОНТАКТАМ</li>
             <li>БИЗНЕСАМ</li>
             <li>ПОРТФОЛИО</li>
             <li>ОТСЛЕДИТЬ ЗАКАЗ</li>
           </ul>
-        </nav>
-        <div className={styles.iconsContainer}>
+        </div>
+        <div className={styles.iconCont}>
           <img src={img1} alt="" />
           <img src={img2} alt="" />
           <img src={img3} alt="" />
