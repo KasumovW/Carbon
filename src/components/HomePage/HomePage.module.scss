@@ -99,43 +99,40 @@
 @media only screen and (max-width: 992px) {
 }
 @media only screen and (max-width: 768px) {
-
   .x {
+    .container {
+      .title {
+        width: 50%;
+        font-size: 50px;
+        margin-bottom: 70px;
+      }
 
-    .container{
+      .a {
+        width: 70%;
+        margin: 150px auto;
 
-        .title {
-          width: 50%; 
-          font-size: 50px;
-
+        .app {
+          width: 100%;
+          // font-size: 22px;
         }
 
-          .a {
-
-              p{
-                font-size: 25px;
-              }
-
-              img {
-                height: 35px;
-                margin-top: 2px;
-                padding: 9px;
-              }
-
-          }
-
+        img {
+          height: 35px;
+          margin-top: 2px;
+          padding: 9px;
+        }
+      }
     }
-
   }
-
 }
 @media only screen and (max-width: 480px) {
   .container {
     .title {
       font-size: 70px;
+      margin-bottom: 50px;
     }
     .a {
-        width:90%;
+      width: 90%;
       img {
         // width: 20px;
         height: 28px;

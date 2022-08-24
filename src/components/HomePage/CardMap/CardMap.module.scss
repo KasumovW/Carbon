@@ -61,6 +61,7 @@
 
         .imgContainer {
           width: 100%;
+          height: 450px;
         }
       }
     }
@@ -70,19 +71,26 @@
 @media only screen and (max-width: 480px) {
   .wrapper {
     .wid {
+      width: 80%;
+      margin: auto;
+
       .cards {
         padding: 10px 0;
 
         .itemTitle {
+          margin-left: 40px;
           font-size: 15px;
+          text-align: center;
         }
 
         .itemDesc {
+          text-align: center;
           font-size: 15px;
         }
         .imgContainer {
           height: 250px;
           width: 280px;
+          margin: auto;
         }
       }
     }
