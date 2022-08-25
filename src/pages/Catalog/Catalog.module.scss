@@ -24,11 +24,6 @@
 			justify-content: space-between;
 			margin: 50px 0;
 
-			li:first-child {
-				color: #ffffff;
-				font-weight: 500;
-			}
-
 			li {
 				color: #ffffff;
 				font-weight: 300;
@@ -56,11 +51,6 @@
 		.container {
 			ul {
 				justify-content: start;
-
-				li:first-child {
-					color: #ffffff;
-					font-weight: 500;
-				}
 
 				li {
 					font-size: 18px;
